@@ -1,0 +1,57 @@
+.mainLayout {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-height: 100vh;
+  overflow: hidden; /* Add this line to prevent unnecessary scrolling */
+}
+
+
+.contentLayout {
+  display: flex;
+  width: 100%;
+  min-height: calc(100vh - var(--hei-30));
+  height: calc(100vh - var(--hei-30));
+  scroll-behavior: smooth;
+  overflow: hidden; /* Add this line to enable vertical scrolling when needed */
+}
+
+.leftLayout,
+.rightLayout,
+.midLayout {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  flex: 1; /* Ensure all child elements of contentLayout expand to fill available space */
+}
+
+.leftLayout,
+.rightLayout {
+  max-width: 300px;
+}
+
+.midLayout {
+  width: 100%;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .contentLayout {
+    grid-template-columns: repeat(2, 1fr); /* Two-column layout */
+    height: 100vh;
+  }
+}
+
+/* Mobile  */
+@media (max-width: 576px) {
+  .contentLayout {
+    grid-template-columns: 1fr; /* Single or multi-column layout */
+  }
+}
+
+/* Mobile  */
+@media (max-width: 320px) {
+  .contentLayout {
+    grid-template-columns: 1fr; /* Single or multi-column layout */
+  }
+}

@@ -1,0 +1,17 @@
+.nameCode {
+  text-align: left;
+  padding: 0;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.nameCode .key {
+  padding: 0;
+  margin: 0;
+  line-height: 18px;
+  font-weight: var(--boldL3);
+}
+
+.nameCode .code{
+  font-weight: var(--boldL1);
+}

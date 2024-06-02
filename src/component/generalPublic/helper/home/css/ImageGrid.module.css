@@ -1,0 +1,12 @@
+/* Code: ABAB012 */
+
+.imageGrid {
+  display: grid;
+}
+
+.box {
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

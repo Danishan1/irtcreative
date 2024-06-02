@@ -1,0 +1,14 @@
+/* Code: ABAB022 */
+
+.tab {
+  /* border: 1px solid red; */
+  text-align: left;
+  padding: 4px 10px;
+  font-weight: var(--boldL2);
+}
+
+.tab:hover {
+  text-decoration: underline;
+  color: var(--colorBlue);
+  cursor: pointer;
+}
