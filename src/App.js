@@ -18,6 +18,10 @@ function App() {
 
   useEffect(() => {}, [selectedTab]);
 
+  useEffect(() => {
+    document.title = "irt Creative";
+  }, []);
+
   // ##############################################
 
   return (
