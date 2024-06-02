@@ -1,0 +1,5 @@
+.gallery {
+  max-width: 500px;
+  overflow-y: auto;
+  height: 91.5vh;
+}

@@ -1,10 +1,13 @@
 import React from "react";
 import style from "../css/Gallery.module.css";
+import ChatBox from "../../Old/chat/ChatBox";
 
 const Gallery = () => {
   return (
     <>
-      <div className={style.gallery}>Gallery</div>
+      <div className={style.gallery}>
+        <ChatBox />
+      </div>
     </>
   );
 };

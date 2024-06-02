@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import style from "./MsgBox.module.css";
-import defaultDp from "../../img/defaultDp.svg";
+import defaultDp from "./defaultDp.jpg";
 
 
 const Chat = ({ currentChat, previousChat }) => {
@@ -29,7 +29,7 @@ const Chat = ({ currentChat, previousChat }) => {
 const SenderInfo = ({ sender }) => (
   <div className={style.senderInfo}>
     <div className={style.dp}>
-      <a href="www.google.com">
+      <a href="#">
         <img src={defaultDp} height={40} alt="Profile" />
       </a>
     </div>

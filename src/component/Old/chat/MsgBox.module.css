@@ -52,10 +52,16 @@
   align-items: center;
 }
 
+.name{
+  font-weight: 700;
+
+}
+
 .msgText {
   /* border: 1px solid rgb(15, 210, 190); */
   display: flex;
   justify-content: left;
+  text-align: left;
   padding: 5px 20px;
 }
 
@@ -63,8 +69,11 @@
   display: flex;
   padding: 5px 30px;
   justify-content: space-between;
-  font-size: 0.7em;
+}
+.idDateTime .id,
+.idDateTime .time {
   color: var(--l-gray-3);
+  font-size: 0.7em;
 }
 
 .share {
