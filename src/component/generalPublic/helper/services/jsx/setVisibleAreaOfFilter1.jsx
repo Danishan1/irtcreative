@@ -1,6 +1,8 @@
 import OnLoadScreen from "./onLoadScreen";
 import MainShowContainer from "./MainShowContainer";
 import getprocessedData from "./DataExtrector/getprocessedData";
+import getDataOfOneSegement from "./DataExtrector/getDataOfOneSegement";
+import ShowSegement from "./showSegement";
 
 const setVisibleAreaOfFilter1 = (tab, setClickedValue) => {
   let content,
@@ -49,8 +51,42 @@ const setVisibleAreaOfFilter1 = (tab, setClickedValue) => {
         />
       );
       break;
-    default:
+    case "uni":
       content = <OnLoadScreen />;
+      break;
+    default:
+      data = getDataOfOneSegement(tab);
+      // data = getprocessedData("Divisions", "Departments");
+      console.log(data);
+
+      if (tab.length === 1) {
+        content = (
+          <ShowSegement
+            id={tab}
+            data={data}
+            title="List of Departments under Division"
+            setClickedValue={setClickedValue}
+          />
+        );
+      } else if (tab.length === 2) {
+        content = (
+          <ShowSegement
+            id={tab}
+            data={data}
+            title="List of Sectors under Department"
+            setClickedValue={setClickedValue}
+          />
+        );
+      } else if (tab.length === 3) {
+        content = (
+          <ShowSegement
+            id={tab}
+            data={data}
+            title="List of Services Under Sector"
+            setClickedValue={setClickedValue}
+          />
+        );
+      } else content = <OnLoadScreen />;
       break;
   }
   return content;
