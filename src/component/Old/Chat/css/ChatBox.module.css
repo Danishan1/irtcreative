@@ -1,0 +1,28 @@
+:root {
+    --hei: 50px;
+}
+
+.chatBox {
+    height: 91vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    height: var(--hei);
+    border-bottom: 2px solid var(--colorGray3);
+}
+
+.chatArea {
+    height: 100%;
+    overflow-y: auto;
+    margin-right: 1px;
+    padding-bottom: 7px;
+}
+
+.msgBox {
+    margin-bottom: 1px;
+
+}

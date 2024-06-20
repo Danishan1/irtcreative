@@ -1,6 +1,6 @@
 import React from "react";
 import style from "../css/Gallery.module.css";
-import ChatBox from "../../Old/chat/ChatBox";
+import ChatBox from "../../Old/Chat/js/ChatBox";
 
 const Gallery = () => {
   return (
