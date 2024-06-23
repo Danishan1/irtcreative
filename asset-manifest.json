@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/irtcreative/static/css/main.4deb6813.css",
-    "main.js": "/irtcreative/static/js/main.d5e12a68.js",
+    "main.css": "/irtcreative/static/css/main.67a07dca.css",
+    "main.js": "/irtcreative/static/js/main.1701b65d.js",
     "static/js/453.f45651d0.chunk.js": "/irtcreative/static/js/453.f45651d0.chunk.js",
     "static/media/LBC.jpg": "/irtcreative/static/media/LBC.32ec22a21d214c575b73.jpg",
     "static/media/LIC.jpg": "/irtcreative/static/media/LIC.9f92323060b56b70fdf2.jpg",
@@ -231,12 +231,12 @@
     "static/media/irtCre NameH.png": "/irtcreative/static/media/irtCre NameH.a6b62a624a3c430a25bc.png",
     "static/media/LFE.jpg": "/irtcreative/static/media/LFE.0dec9b7c024e548054ed.jpg",
     "index.html": "/irtcreative/index.html",
-    "main.4deb6813.css.map": "/irtcreative/static/css/main.4deb6813.css.map",
-    "main.d5e12a68.js.map": "/irtcreative/static/js/main.d5e12a68.js.map",
+    "main.67a07dca.css.map": "/irtcreative/static/css/main.67a07dca.css.map",
+    "main.1701b65d.js.map": "/irtcreative/static/js/main.1701b65d.js.map",
     "453.f45651d0.chunk.js.map": "/irtcreative/static/js/453.f45651d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4deb6813.css",
-    "static/js/main.d5e12a68.js"
+    "static/css/main.67a07dca.css",
+    "static/js/main.1701b65d.js"
   ]
 }
