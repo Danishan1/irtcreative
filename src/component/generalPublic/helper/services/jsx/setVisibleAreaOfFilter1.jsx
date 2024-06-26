@@ -56,15 +56,13 @@ const setVisibleAreaOfFilter1 = (tab, setClickedValue) => {
       break;
     default:
       data = getDataOfOneSegement(tab);
-      // data = getprocessedData("Divisions", "Departments");
-      console.log(data);
 
       if (tab.length === 1) {
         content = (
           <ShowSegement
             id={tab}
             data={data}
-            title="List of Departments under Division"
+            title="List of Departments under "
             setClickedValue={setClickedValue}
           />
         );
@@ -73,7 +71,7 @@ const setVisibleAreaOfFilter1 = (tab, setClickedValue) => {
           <ShowSegement
             id={tab}
             data={data}
-            title="List of Sectors under Department"
+            title="List of Sectors under "
             setClickedValue={setClickedValue}
           />
         );
@@ -82,7 +80,7 @@ const setVisibleAreaOfFilter1 = (tab, setClickedValue) => {
           <ShowSegement
             id={tab}
             data={data}
-            title="List of Services Under Sector"
+            title="List of Services under "
             setClickedValue={setClickedValue}
           />
         );
